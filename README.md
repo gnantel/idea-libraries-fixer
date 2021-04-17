@@ -2,7 +2,7 @@
 
 Script to fix corrupt .idea/libraries directory.
 
-Usage: python idea-libraries-fixer.py <path-to-idea-directory> <path-to-local-maven-repository>
+Usage: `python idea-libraries-fixer.py <path-to-idea-directory> <path-to-local-maven-repository>`
 
 ## Purpose
 
