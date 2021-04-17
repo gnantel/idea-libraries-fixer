@@ -79,6 +79,10 @@ The script:
 
 After manually fixing two files, then writing the script and running it, I found seven more corrupt files in my .idea/libraries directory.
 
+## Caveats
+
+When a corrupt file is detected and a new contents is generated, the contents always contains sources and javadocs entries, despite these not being validated.
+
 ## Notes
 
 * the script is a Python script, written with Python2 but should work with Python3 as well since no special features were used.
